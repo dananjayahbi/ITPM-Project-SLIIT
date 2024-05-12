@@ -1,0 +1,67 @@
+.content-splash{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+    text-align: center;
+    color: #000;
+}
+.content-splash h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.content-splash h1{
+    font-size: 60px;
+    margin: 30px 0;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #097969;
+}
+
+.content-splash p{
+    margin: 15px auto;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Sans-serif';
+    font-weight: 300;
+}
+.image-splash{
+    height:260px;
+    width:240px;
+}
+.button-splash{
+    width:200px;
+    padding:15px 20px;
+    margin:20px 10px;
+    color:#097969;
+    font-weight: bold;
+    border:3px solid #097969;
+    border-radius: 25px;
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    cursor:pointer;
+    position:relative;
+}
+
+.button-splash span{
+    background: #009688;
+    height:100%;
+    width:0%;
+    position: absolute;
+    left:0;
+    top:0;border-radius: 25px;
+    overflow: hidden;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.button-splash:hover span{
+    width:100%;
+    
+}
+
+.button-splash:hover{
+    border: none;
+    color:#fff;
+}

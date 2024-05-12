@@ -1,0 +1,17 @@
+.custom-label {
+  font-size: 18px;
+  color: #03c03c;
+}
+.custom-label-register {
+  font-size: 16px;
+  color: #25A244;
+  font-weight: 400;
+}
+.custom-input {
+  font-size: 18px;
+  text-align: left;
+}
+.custom-input input::placeholder {
+  font-size: 18px;
+  text-align: center;
+}

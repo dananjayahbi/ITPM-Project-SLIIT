@@ -1,0 +1,9 @@
+.custom-header .ant-menu-item-selected {
+    color: green !important;
+    text-decoration: none;
+   
+}
+
+.custom-header .ant-menu-item-selected li{
+    display: none;
+}
